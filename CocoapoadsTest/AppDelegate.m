@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <RongIMKit/RongIMKit.h>
+
 
 @interface AppDelegate ()
 
@@ -27,27 +29,30 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    
+    NSLog(@"WillResignActive");
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    
+    NSLog(@"WillEnterForeground");
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    
+    NSLog(@"nWillTerminate");
+
 }
 
 -(void)applicationDidBecomeActive:(UIApplication *)application
 {
-    
+    NSLog(@"DidBecomeActive");
+
 }
 
 -(void)applicationDidEnterBackground:(UIApplication *)application
 {
-    
+    NSLog(@"进入后台");
 }
 
 @end

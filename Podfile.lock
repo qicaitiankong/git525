@@ -15,6 +15,18 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
+  - RongCloudIM (2.10.6):
+    - RongCloudIM/IMKit (= 2.10.6)
+    - RongCloudIM/IMLib (= 2.10.6)
+    - RongCloudIM/RongSticker (= 2.10.6)
+    - RongCloudIM/Sight (= 2.10.6)
+  - RongCloudIM/IMKit (2.10.6):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.10.6)
+  - RongCloudIM/RongSticker (2.10.6):
+    - RongCloudIM/IMKit
+  - RongCloudIM/Sight (2.10.6):
+    - RongCloudIM/IMKit
   - SDWebImage (5.8.0):
     - SDWebImage/Core (= 5.8.0)
   - SDWebImage/Core (5.8.0)
@@ -23,6 +35,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
   - Masonry (= 1.1.0)
+  - RongCloudIM (~> 2.10.6)
   - SDWebImage (~> 5.8.0)
   - SVProgressHUD (~> 2.2.5)
 
@@ -30,15 +43,17 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
+    - RongCloudIM
     - SDWebImage
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RongCloudIM: b1768dcb3af90d00ce621f7de4f787285435fbe3
   SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: abc02d99fbb5ebd8c6da65c7301448e84f771335
+PODFILE CHECKSUM: 4fa1083a9eb04c215eecbb6554b4bd8083f1745d
 
 COCOAPODS: 1.9.2

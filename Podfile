@@ -5,4 +5,5 @@ target 'CocoapoadsTest' do
 	pod 'AFNetworking', '~> 4.0.1'
 	pod 'SDWebImage', '~> 5.8.0'
 	pod 'SVProgressHUD', '~> 2.2.5'
+	pod 'RongCloudIM', '~> 2.10.6'
 end
